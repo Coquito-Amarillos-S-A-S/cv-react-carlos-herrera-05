@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+#hero {
+  background-color: #dfffd8;
+  padding: 30px;
+  text-align: center;
+}
