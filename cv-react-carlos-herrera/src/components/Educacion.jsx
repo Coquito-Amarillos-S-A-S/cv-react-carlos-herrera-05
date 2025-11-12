@@ -14,7 +14,7 @@ export default function Educacion() {
       <ul>
         {formacion.map((f, index) => (
           <li key={index}>
-            <strong>{f.curso}</strong> – {f.institucion} ({f.año})
+            <strong>{f.curso || f.titulo}</strong> – {f.institucion} ({f.año})
           </li>
         ))}
       </ul>
